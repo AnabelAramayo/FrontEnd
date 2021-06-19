@@ -1,0 +1,67 @@
+header {
+    font-weight: 500;
+    background-color: #222222;
+    color:#F3F3F3;
+    font-size: 11px;
+}
+body p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.BarraSuperior {
+    background-color: #F0A83E;
+    color:#F3F3F3;
+    font-size: 15px;
+    font-weight: 500;
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.ConFondo {
+    text-align: center;
+    background-image: url(../img/bowl.png);
+    height: 409px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+#Comederos {
+    background-color:#F0A83E;
+    background-size: contain;
+    color:#F3F3F3;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.PresentacionProductos {
+    background-color: #FBFAF6;
+}
+.Precio {
+    color:#F0A83E;
+    font-size: 15px;
+}
+.SobrePetshop {
+    background-color: #3C2313;
+    color:#F3F3F3;
+    font-size: 15px;
+    font-weight: 300;
+}
+.SubtitulosContacto {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.Fin p {
+    color:#F3F3F3;
+    background-color: #F0A83E;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+}
