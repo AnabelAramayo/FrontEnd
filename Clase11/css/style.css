@@ -1,0 +1,12 @@
+* {
+    margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+header,
+footer {
+    background-color: #222222;
+    color:#F3F3F3;
+}
+
