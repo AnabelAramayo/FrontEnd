@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/*html, body{
+height: 100%;
+}*/
+
+.MainDetail {
+    background-image: url(img/FondoDetail.png);
+    height: 750px;
+}
+
+.PrimerHeader {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1CD1B0;
+    padding-left: 10px;
+}
+.SegundoHeader {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00669F;
+    font-weight: lighter;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+
+/*.PrincipalLogin {
+    font-family: 'Roboto', sans-serif;
+    margin:7.5rem 31rem;
+    font-size: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}*/
+.PrincipalLogin,
+.PrincipalRegistro,
+.PrincipalContacto {
+    font-family: 'Roboto', sans-serif;
+    margin:5rem 31rem;
+    font-size: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 600px;
+}
+footer {
+    background-color: #00669F;
+    color: white;
+    text-align: center;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form input {
+    width: 20rem;
+    height: 2rem;
+}
+textarea{
+    width: 20rem;
+    height: 10rem;
+}
+select {
+    width: 20rem;
+    height: 2rem;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    width: 20rem;
+    height: 2rem;
+    background-color: #1CD1B0;
+    border-radius: 25px;
+    margin-right: 0.5rem;
+    border:none
+}
+.BotonesRegistro {
+    display: flex;
+    justify-content: space-between;
+}
+.BotonSubmit {
+    font-family: 'Roboto', sans-serif;
+    font-size: 00.8rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #1CD1B0;
+}
+.BotonReset {
+    font-family: 'Roboto', sans-serif;
+    font-size: 00.8rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #888888;
+    color: white;
+}
+.Aregistro,
+.Aingresar  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Aregistro span,
+.Aingresar span {
+    padding-right:1rem;
+}

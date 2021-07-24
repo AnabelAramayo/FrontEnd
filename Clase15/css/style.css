@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/*HEADER*/
+
+header {
+    font-weight: 500;
+    background-color: #222222;
+    color:#F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 52px;
+}
+header ul {
+    display: flex;
+}
+header li {
+    padding: 2px 5px;
+}
+.BarraSuperior {
+    background-color: #F0A83E;
+    color:#F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    display:flex;
+    padding:20px 20px;
+    justify-content:space-between;
+    align-items:center;
+    position: sticky; 
+    top: 0%;
+    z-index: 3;
+}
+.BarraSuperior .fa-bars {
+    display: none;
+}
+.BarraSuperior nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.BarraSuperior nav ul li {
+    padding:10px;
+}
+
+
+/*TITULO CON BANNER*/
+
+
+.TituloBanner {
+    background-image:url(../img/bowl.png);
+    height: 409px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.TituloBanner h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding:10px;
+    background-color: white;
+    width: 345px;
+    background-size: contain;
+    font-size: 25px;
+}
+.TituloBanner .Comederos {
+    background-color:#F0A83E;
+    color:#F3F3F3;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding:10px;
+    position: relative;
+    top: 15px;
+}
+.TituloBanner h4 {
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+/*PRINCIPAL*/
+
+
+.Principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 40px;
+}
+.Principal nav ul { 
+    display: flex;
+    flex-direction:row ;
+}
+.Principal nav ul li{
+    padding-right: 20px;
+}
+
+
+/*PRODUCTOS*/
+
+
+.PresentacionProductos {
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /*height: 550px;*/
+}
+
+.PresentacionProductos .Precio {
+    color:#F0A83E;
+    font-size: 15px;
+    text-align: center;
+}
+.PresentacionProductos h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/*LLAME YA*/
+
+
+.LlameYa {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 265px;
+    color: #3C2313;
+    font-size: 35px;
+}
+.LlameYa input {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    color: white;
+    margin-bottom: 15px;
+    border:none;
+}
+#Reservar {
+    color: white;
+    border:none;
+    border-radius: 15px;
+    background-color: #8A8787;
+    height: 40px;
+    width: 110px;
+}
+
+#Enviar {
+    color: white;
+    border:none;
+    border-radius: 15px;
+    background-color: #F0A83E;
+    height: 40px;
+    width: 110px;
+}
+
+/*HEADER DE FOOTER*/
+
+
+.HeaderDeFooter{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*height: 80px;*/
+}
+.HeaderDeFooter1{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+.HeaderDeFooter1 p {
+    padding-left: 5px;
+}
+.Paraladerecha input{
+    border:none;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+}
+.Paraladerecha button{
+    border:none;
+    border-radius: 10px;
+    height: 40px;
+    width: 110px;
+    background-color: #3C2313;
+    color: white;
+    margin-right: 15px;
+}
+
+/*FOOTER*/
+
+
+.SobrePetshop {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3C2313;
+    color:#F3F3F3;
+    font-size: 15px;
+    font-weight: 300;
+    position:relative;
+    display: flex;
+    padding:10px 50px;
+    height: 350px;
+}
+.SobrePetshop .LogoDos {
+    position:absolute;
+    right: 75px;
+    bottom: 128px;
+}
+.Lista {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.SobrePetshop .SubtitulosContacto {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position:relative;
+    left:50px;
+}
+.Fin p {
+    color:#F3F3F3;
+    background-color: #F0A83E;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    padding: 5px;
+}
+
+
+/*MOBILE*/
+
+@media (max-width:480px) {
+    .BarraSuperior .fa-bars {
+        display: block;
+        margin-right: -15rem;
+    }
+    .BarraSuperior ul li,
+    header{
+        display: none;
+    }
+    .TituloBanner {
+        padding-right: 3rem;
+    }
+    .LlameYa {
+        padding: 1rem 0rem;
+    }
+    .HeaderDeFooter {
+        flex-direction: column;
+        padding: 1rem 0rem;
+    }  
+    .SobrePetshop .LogoDos {
+        right: 10rem;
+        bottom: 0rem;
+        top: 1rem;
+    }
+    .Fin p {
+        background-color: #222222
+    }
+} 

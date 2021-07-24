@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/indexstyle.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <div class="PrimerHeader">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="SegundoHeader">
+            <img src="img/Tienda.png" alt="_blank">
+            <h2>Nombre Tienda</h2>
+        </div>
+        <div class="TercerHeader">
+            <nav>
+            <ul type="none">
+                <li><a href="#"> Contacto</a></li>
+                <li><a href="#"> Registrarme</a></li>
+                <li><a href="#"> Ingresar</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="MainFormulario">
+        <section class="Principal">
+            <div>
+                <h2>Añadí tu super!</h2>
+                <span>Agregá tu personaje favorito completando las opciones</span>
+            </div>
+<form action="/registro" method="POST">
+        <section class="DobleColumna">
+            <div class="PrimeraColumna">
+                <label for="Nombre">*Nombre</label>
+                <input class="FormularioNombre"  name="Nombre" id="Nombre" type="text" required>
+                
+                <label for="Fecha">Fecha</label>
+                <input name="Fecha" id="Fecha" type="date">
+                
+                <textarea placeholder="Descripción"></textarea>
+            </div>
+            <div class="SegundaColumna">
+                <label for="Especie">*Especie</label>
+                <select id="Especie">
+                    <option>Humano</option>
+                    <option>Reptiliano</option>
+                    <option>Asgardiano</option>
+                </select>
+
+                <label for="Foto">Agregar Foto</label>
+                <input type="file" name="Archivos" id="Foto" accept=".jpg">
+
+                <label for="Poderes">Poderes</label>
+                    <br>
+                    <div>
+                        <div><input type="checkbox"  name="Poderes" value="Volar"> Volar </div>
+                        <div> </div><input type="checkbox"  name="Poderes" value="Superinteligencia"> Superinteligencia </div>
+                        <div>  <input type="checkbox"  name="Poderes" value="VistaRayo"> Vista de rayo laser</div>
+                        <div> <input type="checkbox"  name="Poderes" value="Billetera"> Billetera Gorda </div>
+                        <hr>
+                    
+                    <label class="Personajes">Tipo de personaje</label>
+                        <br>
+                        <div><input type="radio" name="Personaje"> Héroe/Heroína </div>
+                        <div><input type="radio" name="Personaje"> Villano/Villana </div>
+                    </div>
+            </div> 
+        </section>
+                <button class="BotonFormulario" type="submit">Añadir</button>
+        </section>
+    </main>
+<!--FOOTER-->
+<footer>
+    <p>Todos los derechos reservados a FRONT END 1</p>
+</footer>
+</body>
+</html>

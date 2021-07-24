@@ -1,0 +1,22 @@
+* {
+    padding:0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+.Header {
+    background-color: #222222;
+
+}
+.Logos {
+    display: flex;
+    align-items: center;
+}
+.Logos img {
+    padding: 0.5rem 0.2rem;
+}
+
+.fa-bars {
+   display: flex;
+   justify-content: flex-end;
+}

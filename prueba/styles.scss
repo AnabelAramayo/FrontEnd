@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+a:link {
+    color: yellow;
+}
+a:visited{
+    color: violet;
+}
+a:active {
+    background-color: teal;
+}
+button:hover {
+    color:aquamarine;
+    background-color: blue;
+}
+textarea:focus {
+    color: lawngreen;
+}
+.Intentando::after {
+    content: 'voy antes';
+}
+input:focus {
+    color: yellowgreen;
+}

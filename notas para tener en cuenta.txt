@@ -1,0 +1,39 @@
+Atributos validos para un input:
+type - name - id - autofocus - pattern - required - placeholder - value
+
+¿cuantos atributos puede tener un input?
+
+Modelo de cajas: display block, inline e inline-block, none.
+Diferencia entre none y hidden.
+
+¿Cuales son las partes de la una caja en box model?
+Saber los 4 valores para manejar
+
+Saber que hacen cada uno de los pseudoselectores y pseudoelementos.
+
+
+Atributo name: LOS ELEMENTOS QUE NO TENGAN EL ATRIBUTO NAME NO SE ENVIAN
+
+target="blank"
+target="_blank"
+La diferencia entre ambos es que con blank" va a abrir mi enlace en una nueva pestaña pero si hay otro enlace con el mismo target="blank" se va a sobre escribir sobre la misma pestaña. En cambio _blanck
+
+que hace la etiqueta viewport
+como funciona cada una de las etiquetas
+
+
+el em toma la medida del padre y vale 1em (ej). Si por ejemplo el padre es el html, va a valer 16px, porque es el padre.
+
+ahroa si tengo una p dentro de un body que tiene una medida relativa de 20px, mi p ahora va a tener la medida de 1em, osea en este caso 20px.
+
+el em siempre va de la mano de la medida de la medida del font size.
+
+los rems: cada rem es de 16px, porque la medida medida del HTML es de 16px.
+Si voy al footer no importa cuantas medidas haya hecho 1rem es 16px. solo se lo puedo cambiar desde el html.
+
+viewport viewhigh vp vh
+
+mix y min whith
+
+portrait
+
